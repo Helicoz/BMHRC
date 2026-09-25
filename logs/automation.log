@@ -1,0 +1,10 @@
+2026-09-24 18:09:33,784 - INFO - ====== WebDriver manager ======
+2026-09-24 18:09:34,395 - INFO - Driver [C:\Users\rahulgunsola\.wdm\drivers\chromedriver\win64\153.0.8010.52\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-09-24 18:09:54,085 - INFO - 
+2026-09-24 18:09:54,085 - INFO - ###############################################################################################
+2026-09-24 18:09:54,085 - INFO - # TEST CASE : test_pac_entry
+2026-09-24 18:09:54,085 - INFO - # MODULE    : PAC Entry Flow
+2026-09-24 18:09:54,085 - INFO - # STATUS    : STARTED
+2026-09-24 18:09:54,085 - INFO - ###############################################################################################
+2026-09-24 18:10:11,556 - INFO - Searching patient with CRN: 231012600003110
+2026-09-24 18:10:21,774 - ERROR - Test Failed: cannot access local variable 'expected_investigations' where it is not associated with a value
