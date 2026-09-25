@@ -3984,7 +3984,10 @@ class Test_New_Patient_Workflow:
                 "Navigating back to Registration Search"
             )
 
-            self.patient_reg.click_home_tab()
+            self.driver.refresh()
+            time.sleep(3)
+
+            self.patient_reg.click_registration_module()
 
             self.patient_reg.click_patient_registration_option()
 
@@ -4871,7 +4874,10 @@ class Test_New_Patient_Workflow:
                 "Opening Patient Registration for search"
             )
 
-            self.patient_reg.click_home_tab()
+            self.driver.refresh()
+            time.sleep(3)
+
+            self.patient_reg.click_registration_module()
 
             self.patient_reg.click_patient_registration_option()
 

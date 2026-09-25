@@ -1,10 +1,634 @@
-2026-09-24 18:09:33,784 - INFO - ====== WebDriver manager ======
-2026-09-24 18:09:34,395 - INFO - Driver [C:\Users\rahulgunsola\.wdm\drivers\chromedriver\win64\153.0.8010.52\chromedriver-win64/chromedriver.exe] found in cache by browser version
-2026-09-24 18:09:54,085 - INFO - 
-2026-09-24 18:09:54,085 - INFO - ###############################################################################################
-2026-09-24 18:09:54,085 - INFO - # TEST CASE : test_pac_entry
-2026-09-24 18:09:54,085 - INFO - # MODULE    : PAC Entry Flow
-2026-09-24 18:09:54,085 - INFO - # STATUS    : STARTED
-2026-09-24 18:09:54,085 - INFO - ###############################################################################################
-2026-09-24 18:10:11,556 - INFO - Searching patient with CRN: 231012600003110
-2026-09-24 18:10:21,774 - ERROR - Test Failed: cannot access local variable 'expected_investigations' where it is not associated with a value
+2026-09-25 16:01:25,603 - INFO - ====== WebDriver manager ======
+2026-09-25 16:01:26,526 - INFO - Driver [C:\Users\rahulgunsola\.wdm\drivers\chromedriver\win64\153.0.8010.52\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-09-25 16:01:40,899 - INFO - 
+2026-09-25 16:01:40,899 - INFO - ###############################################################################################
+2026-09-25 16:01:40,899 - INFO - # TEST CASE : test_new_registration
+2026-09-25 16:01:40,899 - INFO - # MODULE    : Patient Registration
+2026-09-25 16:01:40,899 - INFO - # STATUS    : STARTED
+2026-09-25 16:01:40,899 - INFO - ###############################################################################################
+2026-09-25 16:01:40,900 - INFO - Opening Registration Module
+2026-09-25 16:01:40,940 - INFO - Opening Patient Registration
+2026-09-25 16:01:41,498 - INFO - Clicking New Registration button
+2026-09-25 16:01:45,740 - INFO - Selected Department: Cardiology
+2026-09-25 16:01:47,817 - INFO - Selected Unit: Dr. Nupur Goyal
+2026-09-25 16:01:47,818 - INFO - OPD Unit Name: Cardiology(Dr. Nupur Goyal)
+2026-09-25 16:01:47,818 - INFO - Generated Patient Name: AUTOaHT
+2026-09-25 16:01:53,111 - INFO - Selected random payment mode: Debit Card
+2026-09-25 16:01:53,316 - INFO - Entering Mobile Number: 9794597915
+2026-09-25 16:01:54,986 - INFO - Saving patient registration
+2026-09-25 16:02:10,141 - INFO - Opening generated OPD PDF
+2026-09-25 16:02:10,176 - INFO - PDF text extracted successfully
+2026-09-25 16:02:10,190 - INFO - CRN: 231012600003438
+2026-09-25 16:02:10,190 - INFO - Patient Name: AUTOAHT
+2026-09-25 16:02:10,190 - INFO - Mobile Number: 9794597915
+2026-09-25 16:02:14,414 - INFO - Barcode extracted successfully
+2026-09-25 16:02:14,497 - INFO - ========================================
+2026-09-25 16:02:14,497 - INFO - REGISTRATION WORKFLOW DATA
+2026-09-25 16:02:14,497 - INFO - Generated CRN: 231012600003438
+2026-09-25 16:02:14,497 - INFO - Generated Patient Name: AUTOAHT
+2026-09-25 16:02:14,497 - INFO - Generated Mobile: 9794597915
+2026-09-25 16:02:14,497 - INFO - ========================================
+2026-09-25 16:02:14,497 - INFO - 
+2026-09-25 16:02:14,497 - INFO - ###############################################################################################
+2026-09-25 16:02:14,497 - INFO - # TEST CASE : test_new_registration
+2026-09-25 16:02:14,497 - INFO - # STATUS    : PASSED
+2026-09-25 16:02:14,497 - INFO - ###############################################################################################
+2026-09-25 16:02:14,497 - INFO - 
+2026-09-25 16:02:14,500 - INFO - Registration CRN found.
+2026-09-25 16:02:14,500 - INFO - Using newly generated CRN: 231012600003438
+2026-09-25 16:02:14,500 - INFO - 
+2026-09-25 16:02:14,500 - INFO - ###############################################################################################
+2026-09-25 16:02:14,500 - INFO - # TEST CASE : test_revisit_patient
+2026-09-25 16:02:14,500 - INFO - # MODULE    : Patient Revisit
+2026-09-25 16:02:14,501 - INFO - # STATUS    : STARTED
+2026-09-25 16:02:14,501 - INFO - ###############################################################################################
+2026-09-25 16:02:19,579 - INFO - Opening Registration Module
+2026-09-25 16:02:24,665 - INFO - Searching patient using CRN: 231012600003438
+2026-09-25 16:02:31,441 - INFO - Extracting patient details from CRN search result
+2026-09-25 16:02:31,478 - INFO - Search Result Patient Name: AUTOAHT
+2026-09-25 16:02:31,478 - INFO - Search Result Mobile: 9794597915
+2026-09-25 16:02:31,478 - INFO - ========================================
+2026-09-25 16:02:31,478 - INFO - Final CRN: 231012600003438
+2026-09-25 16:02:31,478 - INFO - Final Patient Name: AUTOAHT
+2026-09-25 16:02:31,478 - INFO - Final Mobile: 9794597915
+2026-09-25 16:02:31,478 - INFO - Fallback Used: False
+2026-09-25 16:02:31,478 - INFO - ========================================
+2026-09-25 16:02:31,478 - INFO - Clicking Revisit button
+2026-09-25 16:02:37,537 - INFO - Revisit button clicked
+2026-09-25 16:02:40,610 - INFO - New Department Revisit window opened
+2026-09-25 16:02:40,610 - INFO - Selecting department/unit for revisit
+2026-09-25 16:02:46,266 - INFO - OPD Unit returned from selection method: 'NEUROLOGY(DR. PRATEEK BAPAT)'
+2026-09-25 16:02:46,266 - INFO - Stored revisit OPD Unit: 'NEUROLOGY(DR. PRATEEK BAPAT)'
+2026-09-25 16:03:05,109 - INFO - Starting OPD verification
+2026-09-25 16:03:10,192 - INFO - Selecting OPD Department/Unit: NEUROLOGY(DR. PRATEEK BAPAT)
+2026-09-25 16:03:10,227 - INFO - Looking for OPD Department/Unit: 'NEUROLOGY(DR. PRATEEK BAPAT)'
+2026-09-25 16:03:10,238 - INFO - Checking dropdown option: 'BREAST CLINIC(DR. SONVEER GOUTAM)'
+2026-09-25 16:03:10,243 - INFO - Checking dropdown option: 'CARDIOLOGY(DR. NUPUR GOYAL)'
+2026-09-25 16:03:10,247 - INFO - Checking dropdown option: 'CARDIOLOGY(DR. PARVEZ KHAN)'
+2026-09-25 16:03:10,252 - INFO - Checking dropdown option: 'CASUALTY(CASUALTY UNIT 1)'
+2026-09-25 16:03:10,256 - INFO - Checking dropdown option: 'COPD CLINIC(DR. LALIT KUMAR)'
+2026-09-25 16:03:10,261 - INFO - Checking dropdown option: 'CTVS(DR. GIRIRAJ KUMAR GARG)'
+2026-09-25 16:03:10,265 - INFO - Checking dropdown option: 'GAESTRO SURGERY(DR. PRAMOD VERMA)'
+2026-09-25 16:03:10,270 - INFO - Checking dropdown option: 'GAESTRO SURGERY(LEPROSCOPIC HERNIA SURGERY-DR. PRAMOD VERMA)'
+2026-09-25 16:03:10,274 - INFO - Checking dropdown option: 'GASTRO MEDICINE(DR. A. RASHID)'
+2026-09-25 16:03:10,279 - INFO - Checking dropdown option: 'GASTRO MEDICINE(DR. ANURAG TIWARI)'
+2026-09-25 16:03:10,283 - INFO - Checking dropdown option: 'GASTRO MEDICINE(DR. SARANSH JAIN)'
+2026-09-25 16:03:10,288 - INFO - Checking dropdown option: 'GASTRO MEDICINE(DR. TRIPTI MISHRA)'
+2026-09-25 16:03:10,293 - INFO - Checking dropdown option: 'GENERAL MEDICINE(DR A)'
+2026-09-25 16:03:10,298 - INFO - Checking dropdown option: 'NEPHROLOGY(DR. AJAY KUMAR MIREE)'
+2026-09-25 16:03:10,303 - INFO - Checking dropdown option: 'NEPHROLOGY(DR. DINESH UPADHYAY)'
+2026-09-25 16:03:10,307 - INFO - Checking dropdown option: 'NEPHROLOGY(DR. RAJESH TARACHANDANI)'
+2026-09-25 16:03:10,312 - INFO - Checking dropdown option: 'NEPHROLOGY(DR. SEEMA NAVED)'
+2026-09-25 16:03:10,316 - INFO - Checking dropdown option: 'NEURO SURGERY(DR. SANDEEP K SORTE )'
+2026-09-25 16:03:10,321 - INFO - Checking dropdown option: 'NEURO SURGERY(DR. SANDEEP K SORTE -BRAIN TUMOR CLINIC)'
+2026-09-25 16:03:10,326 - INFO - Checking dropdown option: 'NEURO SURGERY(DR. SAURABH GUPTA )'
+2026-09-25 16:03:10,331 - INFO - Checking dropdown option: 'NEURO SURGERY(DR. SAURABH GUPTA -BRAIN TUMOR CLINIC)'
+2026-09-25 16:03:10,335 - INFO - Checking dropdown option: 'NEURO SURGERY(DR. SOURABH DIXIT )'
+2026-09-25 16:03:10,342 - INFO - Checking dropdown option: 'NEURO SURGERY(DR. SOURABH DIXIT -BRAIN TUMOR CLINIC)'
+2026-09-25 16:03:10,348 - INFO - Checking dropdown option: 'NEUROLOGY(DIRECTOR INCHARGE)'
+2026-09-25 16:03:10,353 - INFO - Checking dropdown option: 'NEUROLOGY(DR. PRATEEK BAPAT)'
+2026-09-25 16:03:10,353 - INFO - OPD Department/Unit matched: 'NEUROLOGY(DR. PRATEEK BAPAT)'
+2026-09-25 16:03:15,395 - INFO - Verifying patient in OPD: AUTOAHT
+2026-09-25 16:03:15,410 - INFO - Patient found in OPD: Autoaht
+2026-09-25 16:03:15,410 - INFO - Patient name verified successfully
+2026-09-25 16:03:15,410 - INFO - Revisit completed successfully. CRN: 231012600003438
+2026-09-25 16:03:15,410 - INFO - Revisit OPD Unit: NEUROLOGY(DR. PRATEEK BAPAT)
+2026-09-25 16:03:15,410 - INFO - 
+2026-09-25 16:03:15,410 - INFO - ###############################################################################################
+2026-09-25 16:03:15,410 - INFO - # TEST CASE : test_revisit_patient
+2026-09-25 16:03:15,410 - INFO - # STATUS    : PASSED
+2026-09-25 16:03:15,410 - INFO - ###############################################################################################
+2026-09-25 16:03:15,410 - INFO - 
+2026-09-25 16:03:15,412 - INFO - 
+2026-09-25 16:03:15,412 - INFO - ###############################################################################################
+2026-09-25 16:03:15,412 - INFO - # TEST CASE : test_search_by_mobile_number
+2026-09-25 16:03:15,412 - INFO - # MODULE    : Patient Registration
+2026-09-25 16:03:15,412 - INFO - # STATUS    : STARTED
+2026-09-25 16:03:15,412 - INFO - ###############################################################################################
+2026-09-25 16:03:15,412 - INFO - ========================================
+2026-09-25 16:03:15,412 - INFO - Mobile Number Used: 9794597915
+2026-09-25 16:03:15,412 - INFO - Patient Name Used: AUTOAHT
+2026-09-25 16:03:15,412 - INFO - ========================================
+2026-09-25 16:03:20,479 - INFO - Opening Registration Module
+2026-09-25 16:03:22,504 - INFO - Opening Patient Registration
+2026-09-25 16:03:25,537 - INFO - Searching patient using mobile number: 9794597915
+2026-09-25 16:03:31,814 - INFO - Waiting for patient record to appear
+2026-09-25 16:03:31,831 - INFO - Patient name displayed: AUTOAHT
+2026-09-25 16:03:31,831 - INFO - Patient name validation passed
+2026-09-25 16:03:31,831 - INFO - Patient found successfully using mobile number: 9794597915
+2026-09-25 16:03:31,831 - INFO - 
+2026-09-25 16:03:31,832 - INFO - ###############################################################################################
+2026-09-25 16:03:31,832 - INFO - # TEST CASE : test_search_by_mobile_number
+2026-09-25 16:03:31,832 - INFO - # STATUS    : PASSED
+2026-09-25 16:03:31,832 - INFO - ###############################################################################################
+2026-09-25 16:03:31,832 - INFO - 
+2026-09-25 16:03:31,833 - INFO - 
+2026-09-25 16:03:31,833 - INFO - ###############################################################################################
+2026-09-25 16:03:31,833 - INFO - # TEST CASE : test_search_patient_by_name
+2026-09-25 16:03:31,833 - INFO - # MODULE    : Patient Registration
+2026-09-25 16:03:31,833 - INFO - # STATUS    : STARTED
+2026-09-25 16:03:31,833 - INFO - ###############################################################################################
+2026-09-25 16:03:31,833 - INFO - Patient name to search: AUTOAHT
+2026-09-25 16:03:31,833 - INFO - Refreshing page before patient name search
+2026-09-25 16:03:36,926 - INFO - Opening Registration Module
+2026-09-25 16:03:38,950 - INFO - Opening Patient Registration
+2026-09-25 16:03:42,008 - INFO - Starting patient search by name
+2026-09-25 16:03:42,008 - INFO - Entering patient name in search box: AUTOAHT
+2026-09-25 16:03:45,150 - INFO - Searching patient: AUTOAHT
+2026-09-25 16:03:48,151 - INFO - Waiting for patient record to appear in search results
+2026-09-25 16:03:48,159 - INFO - Patient record found in search results
+2026-09-25 16:03:48,166 - INFO - Patient name displayed in listing: AUTOAHT
+2026-09-25 16:03:48,166 - INFO - Validating searched patient name
+2026-09-25 16:03:48,166 - INFO - Patient name validation passed
+2026-09-25 16:03:48,166 - INFO - Patient found successfully in search: AUTOAHT
+2026-09-25 16:03:48,166 - INFO - 
+2026-09-25 16:03:48,166 - INFO - ###############################################################################################
+2026-09-25 16:03:48,166 - INFO - # TEST CASE : test_search_patient_by_name
+2026-09-25 16:03:48,166 - INFO - # STATUS    : PASSED
+2026-09-25 16:03:48,166 - INFO - ###############################################################################################
+2026-09-25 16:03:48,166 - INFO - 
+2026-09-25 16:03:48,167 - INFO - Normal registration flow detected. Using generated CRN: 231012600003438
+2026-09-25 16:03:48,167 - INFO - 
+2026-09-25 16:03:48,167 - INFO - ###############################################################################################
+2026-09-25 16:03:48,167 - INFO - # TEST CASE : test_print_duplicate_opd
+2026-09-25 16:03:48,167 - INFO - # MODULE    : Patient Registration
+2026-09-25 16:03:48,167 - INFO - # STATUS    : STARTED
+2026-09-25 16:03:48,167 - INFO - ###############################################################################################
+2026-09-25 16:03:48,167 - INFO - Final CRN used for Duplicate OPD: 231012600003438
+2026-09-25 16:03:48,167 - INFO - Fallback used during workflow: False
+2026-09-25 16:03:48,167 - INFO - Opening Patient Registration page
+2026-09-25 16:03:51,246 - INFO - Opening Registration Module
+2026-09-25 16:03:54,311 - INFO - Searching patient using CRN: 231012600003438
+2026-09-25 16:04:01,630 - INFO - Verifying patient record exists before printing duplicate OPD
+2026-09-25 16:04:01,635 - INFO - Patient found successfully using CRN: 231012600003438
+2026-09-25 16:04:01,635 - INFO - Opening patient action menu
+2026-09-25 16:04:01,927 - INFO - Selecting Duplicate OPD option
+2026-09-25 16:04:08,762 - INFO - Clicking duplicate OPD print button
+2026-09-25 16:04:08,798 - INFO - Duplicate OPD print initiated
+2026-09-25 16:04:15,909 - INFO - Closed print dialog
+2026-09-25 16:04:15,910 - INFO - Verifying duplicate OPD PDF
+2026-09-25 16:04:18,940 - INFO - Duplicate OPD PDF loaded successfully
+2026-09-25 16:04:18,940 - INFO - Duplicate OPD PDF CRN: 231012600003438
+2026-09-25 16:04:18,940 - INFO - Expected workflow CRN: 231012600003438
+2026-09-25 16:04:18,940 - INFO - Duplicate OPD CRN matched successfully
+2026-09-25 16:04:18,940 - INFO - 'OPD Card Duplicate' text verified successfully
+2026-09-25 16:04:18,940 - INFO - Closing duplicate OPD PDF
+2026-09-25 16:04:24,054 - INFO - Duplicate OPD verification completed successfully
+2026-09-25 16:04:24,054 - INFO - 
+2026-09-25 16:04:24,054 - INFO - ###############################################################################################
+2026-09-25 16:04:24,054 - INFO - # TEST CASE : test_print_duplicate_opd
+2026-09-25 16:04:24,054 - INFO - # STATUS    : PASSED
+2026-09-25 16:04:24,054 - INFO - ###############################################################################################
+2026-09-25 16:04:24,054 - INFO - 
+2026-09-25 16:04:24,055 - INFO - Normal registration flow detected. Using generated CRN: 231012600003438
+2026-09-25 16:04:24,056 - INFO - 
+2026-09-25 16:04:24,056 - INFO - ###############################################################################################
+2026-09-25 16:04:24,056 - INFO - # TEST CASE : test_print_duplicate_barcode
+2026-09-25 16:04:24,056 - INFO - # MODULE    : Patient Registration
+2026-09-25 16:04:24,056 - INFO - # STATUS    : STARTED
+2026-09-25 16:04:24,056 - INFO - ###############################################################################################
+2026-09-25 16:04:24,056 - INFO - Final CRN used for Duplicate Barcode: 231012600003438
+2026-09-25 16:04:24,056 - INFO - Fallback used during workflow: False
+2026-09-25 16:04:24,056 - INFO - Refreshing page
+2026-09-25 16:04:29,131 - INFO - Opening Registration Module
+2026-09-25 16:04:32,202 - INFO - Searching patient using CRN: 231012600003438
+2026-09-25 16:04:38,402 - INFO - Verifying patient record exists before printing duplicate barcode
+2026-09-25 16:04:38,408 - INFO - Patient found successfully using CRN: 231012600003438
+2026-09-25 16:04:38,408 - INFO - Opening patient action menu
+2026-09-25 16:04:38,682 - INFO - Opening barcode print option
+2026-09-25 16:04:45,020 - INFO - Clicking barcode print button
+2026-09-25 16:04:45,065 - INFO - Duplicate barcode generated
+2026-09-25 16:04:52,175 - INFO - Closed print dialog
+2026-09-25 16:04:52,176 - INFO - Verifying duplicate barcode
+2026-09-25 16:04:57,201 - INFO - Duplicate barcode content retrieved successfully
+2026-09-25 16:04:57,201 - INFO - CRN verified successfully in duplicate barcode: 231012600003438
+2026-09-25 16:04:57,201 - INFO - Closing duplicate barcode window
+2026-09-25 16:05:02,299 - INFO - Duplicate barcode verification completed successfully
+2026-09-25 16:05:02,299 - INFO - 
+2026-09-25 16:05:02,299 - INFO - ###############################################################################################
+2026-09-25 16:05:02,300 - INFO - # TEST CASE : test_print_duplicate_barcode
+2026-09-25 16:05:02,300 - INFO - # STATUS    : PASSED
+2026-09-25 16:05:02,300 - INFO - ###############################################################################################
+2026-09-25 16:05:02,300 - INFO - 
+2026-09-25 16:05:02,301 - INFO - Registration CRN found. Using newly generated CRN: 231012600003438
+2026-09-25 16:05:02,301 - INFO - 
+2026-09-25 16:05:02,301 - INFO - ###############################################################################################
+2026-09-25 16:05:02,301 - INFO - # TEST CASE : test_change_patient_category
+2026-09-25 16:05:02,301 - INFO - # MODULE    : Patient Registration
+2026-09-25 16:05:02,301 - INFO - # STATUS    : STARTED
+2026-09-25 16:05:02,301 - INFO - ###############################################################################################
+2026-09-25 16:05:02,301 - INFO - ====================================
+2026-09-25 16:05:02,301 - INFO - CRN Used: 231012600003438
+2026-09-25 16:05:02,301 - INFO - Using Fallback CRN: False
+2026-09-25 16:05:02,301 - INFO - Category Verification ID: 2108
+2026-09-25 16:05:02,301 - INFO - ====================================
+2026-09-25 16:05:02,301 - INFO - Navigating to Patient Registration page
+2026-09-25 16:05:06,369 - INFO - Opening Registration Module
+2026-09-25 16:05:08,448 - INFO - Patient Registration page opened
+2026-09-25 16:05:11,449 - INFO - Searching patient using CRN: 231012600003438
+2026-09-25 16:05:17,701 - INFO - CRN search completed: 231012600003438
+2026-09-25 16:05:17,701 - INFO - Waiting for patient search result
+2026-09-25 16:05:17,715 - INFO - Patient record found for CRN: 231012600003438
+2026-09-25 16:05:17,715 - INFO - Opening patient action menu
+2026-09-25 16:05:18,002 - INFO - Patient action menu opened successfully
+2026-09-25 16:05:18,002 - INFO - Opening Change Patient Category option
+2026-09-25 16:05:24,332 - INFO - Change Patient Category popup opened
+2026-09-25 16:05:24,332 - INFO - Selecting new patient category
+2026-09-25 16:05:24,359 - INFO - Selecting patient category: BPL
+2026-09-25 16:05:24,359 - INFO - Category value: 31
+2026-09-25 16:05:26,419 - INFO - Patient category selected successfully: BPL
+2026-09-25 16:05:26,420 - INFO - Selected category: BPL
+2026-09-25 16:05:29,420 - INFO - Entering category verification ID: 2108
+2026-09-25 16:05:29,492 - INFO - Selecting Recommended By user
+2026-09-25 16:05:29,608 - INFO - Recommended By selected successfully
+2026-09-25 16:05:29,608 - INFO - Selecting Approved By user
+2026-09-25 16:05:32,785 - INFO - Approved By selected successfully
+2026-09-25 16:05:32,785 - INFO - Submitting patient category change request
+2026-09-25 16:05:32,819 - INFO - Patient category change submitted
+2026-09-25 16:05:32,819 - INFO - Waiting for success confirmation message
+2026-09-25 16:05:33,356 - INFO - Success message received: Patient Category Changed Successfully !!
+2026-09-25 16:05:33,356 - INFO - Patient category changed successfully
+2026-09-25 16:05:33,356 - INFO - ====================================
+2026-09-25 16:05:33,356 - INFO - CHANGE PATIENT CATEGORY COMPLETED
+2026-09-25 16:05:33,356 - INFO - CRN Used: 231012600003438
+2026-09-25 16:05:33,356 - INFO - Fallback Used: False
+2026-09-25 16:05:33,356 - INFO - New Category: BPL
+2026-09-25 16:05:33,356 - INFO - ====================================
+2026-09-25 16:05:33,357 - INFO - 
+2026-09-25 16:05:33,357 - INFO - ###############################################################################################
+2026-09-25 16:05:33,357 - INFO - # TEST CASE : test_change_patient_category
+2026-09-25 16:05:33,357 - INFO - # STATUS    : PASSED
+2026-09-25 16:05:33,357 - INFO - ###############################################################################################
+2026-09-25 16:05:33,357 - INFO - 
+2026-09-25 16:05:33,359 - INFO - Registration CRN found. Using newly generated CRN: 231012600003438
+2026-09-25 16:05:33,359 - INFO - 
+2026-09-25 16:05:33,359 - INFO - ###############################################################################################
+2026-09-25 16:05:33,359 - INFO - # TEST CASE : test_modify_mobile_number
+2026-09-25 16:05:33,359 - INFO - # MODULE    : Patient Registration
+2026-09-25 16:05:33,359 - INFO - # STATUS    : STARTED
+2026-09-25 16:05:33,359 - INFO - ###############################################################################################
+2026-09-25 16:05:33,359 - INFO - ====================================
+2026-09-25 16:05:33,359 - INFO - CRN Used: 231012600003438
+2026-09-25 16:05:33,359 - INFO - Using Fallback CRN: False
+2026-09-25 16:05:33,359 - INFO - Old Mobile: 9794597915
+2026-09-25 16:05:33,359 - INFO - Updated Mobile: 7056717628
+2026-09-25 16:05:33,359 - INFO - ====================================
+2026-09-25 16:05:33,359 - INFO - Opening patient modification
+2026-09-25 16:05:38,527 - INFO - Opened Patient Registration page
+2026-09-25 16:05:41,528 - INFO - Searching patient using CRN: 231012600003438
+2026-09-25 16:05:47,640 - INFO - CRN search completed: 231012600003438
+2026-09-25 16:05:47,640 - INFO - Updating mobile number to: 7056717628
+2026-09-25 16:05:47,731 - INFO - Clicking Modify button
+2026-09-25 16:05:49,759 - INFO - Confirming mobile number update
+2026-09-25 16:05:49,781 - INFO - Waiting for mobile update success message
+2026-09-25 16:05:50,311 - INFO - Success message received: Patient Mobile Number successfully updated!!
+2026-09-25 16:05:50,311 - INFO - Mobile number update success message verified
+2026-09-25 16:05:55,312 - INFO - Starting updated mobile number verification
+2026-09-25 16:06:04,478 - INFO - Searching patient using updated mobile: 7056717628
+2026-09-25 16:06:12,643 - INFO - Waiting for patient record after mobile search
+2026-09-25 16:06:12,657 - INFO - Patient record found using updated mobile number
+2026-09-25 16:06:12,657 - INFO - Scrolling table to mobile number column
+2026-09-25 16:06:14,671 - INFO - Fetching updated mobile number from listing
+2026-09-25 16:06:14,694 - INFO - Mobile number displayed in listing: 7056717628
+2026-09-25 16:06:14,694 - INFO - Validating updated mobile number
+2026-09-25 16:06:14,694 - INFO - Updated mobile number verified successfully
+2026-09-25 16:06:14,694 - INFO - Stored updated mobile number for future tests: 7056717628
+2026-09-25 16:06:14,694 - INFO - ====================================
+2026-09-25 16:06:14,694 - INFO - MODIFY MOBILE NUMBER COMPLETED
+2026-09-25 16:06:14,694 - INFO - CRN Used: 231012600003438
+2026-09-25 16:06:14,694 - INFO - Updated Mobile: 7056717628
+2026-09-25 16:06:14,695 - INFO - Fallback Used: False
+2026-09-25 16:06:14,695 - INFO - ====================================
+2026-09-25 16:06:14,695 - INFO - 
+2026-09-25 16:06:14,695 - INFO - ###############################################################################################
+2026-09-25 16:06:14,695 - INFO - # TEST CASE : test_modify_mobile_number
+2026-09-25 16:06:14,695 - INFO - # STATUS    : PASSED
+2026-09-25 16:06:14,695 - INFO - ###############################################################################################
+2026-09-25 16:06:14,695 - INFO - 
+2026-09-25 16:06:14,697 - INFO - Normal registration flow detected.
+2026-09-25 16:06:14,697 - INFO - Using generated CRN: 231012600003438
+2026-09-25 16:06:14,697 - INFO - 
+2026-09-25 16:06:14,697 - INFO - ###############################################################################################
+2026-09-25 16:06:14,697 - INFO - # TEST CASE : test_patient_update
+2026-09-25 16:06:14,697 - INFO - # MODULE    : Patient Registration
+2026-09-25 16:06:14,697 - INFO - # STATUS    : STARTED
+2026-09-25 16:06:14,697 - INFO - ###############################################################################################
+2026-09-25 16:06:14,697 - INFO - ====================================
+2026-09-25 16:06:14,698 - INFO - CRN Number Used: 231012600003438
+2026-09-25 16:06:14,698 - INFO - ====================================
+2026-09-25 16:06:14,698 - INFO - Final CRN selected for patient update: 231012600003438
+2026-09-25 16:06:16,698 - INFO - Updating patient with CRN: 231012600003438
+2026-09-25 16:06:21,805 - INFO - Opening Patient Registration
+2026-09-25 16:06:26,855 - INFO - Entering CRN for patient modification: 231012600003438
+2026-09-25 16:06:29,952 - INFO - Updating patient first name
+2026-09-25 16:06:30,554 - INFO - Entered suffix 'One' in patient first name field
+2026-09-25 16:06:30,572 - INFO - Updated patient name captured: AUTOaHTOne
+2026-09-25 16:06:30,572 - INFO - Clicking Modify button
+2026-09-25 16:06:30,601 - INFO - Modify button clicked successfully
+2026-09-25 16:06:30,602 - INFO - Waiting for patient update success message
+2026-09-25 16:06:31,157 - INFO - Success popup message: Patient details successfully updated
+2026-09-25 16:06:31,158 - INFO - Patient update success message verified
+2026-09-25 16:06:38,158 - INFO - Starting updated patient name verification
+2026-09-25 16:06:43,384 - INFO - Searching patient using CRN: 231012600003438
+2026-09-25 16:06:51,119 - INFO - Waiting for patient row with CRN: 231012600003438
+2026-09-25 16:06:51,130 - INFO - Patient row found successfully
+2026-09-25 16:06:51,144 - INFO - Expected Updated Name: AUTOaHTOne
+2026-09-25 16:06:51,144 - INFO - Actual Name From Listing: AUTOAHTONE
+2026-09-25 16:06:51,144 - INFO - Updated patient name verified successfully
+2026-09-25 16:06:51,144 - INFO - Opening Patient Audit Trail
+2026-09-25 16:06:51,182 - INFO - Patient Audit Trail option clicked
+2026-09-25 16:06:53,183 - INFO - Entering CRN for audit trail: 231012600003438
+2026-09-25 16:07:01,254 - INFO - Audit trail opened successfully
+2026-09-25 16:07:08,255 - INFO - ====================================
+2026-09-25 16:07:08,255 - INFO - PATIENT UPDATE WORKFLOW COMPLETED
+2026-09-25 16:07:08,255 - INFO - CRN: 231012600003438
+2026-09-25 16:07:08,255 - INFO - Updated Name: AUTOAHTONE
+2026-09-25 16:07:08,255 - INFO - ====================================
+2026-09-25 16:07:08,255 - INFO - 
+2026-09-25 16:07:08,255 - INFO - ###############################################################################################
+2026-09-25 16:07:08,255 - INFO - # TEST CASE : test_patient_update
+2026-09-25 16:07:08,255 - INFO - # STATUS    : PASSED
+2026-09-25 16:07:08,255 - INFO - ###############################################################################################
+2026-09-25 16:07:08,255 - INFO - 
+2026-09-25 16:07:08,256 - INFO - Using OPD Unit obtained from revisit: NEUROLOGY(DR. PRATEEK BAPAT)
+2026-09-25 16:07:08,256 - INFO - 
+2026-09-25 16:07:08,256 - INFO - ###############################################################################################
+2026-09-25 16:07:08,256 - INFO - # TEST CASE : test_reg_to_rx_flow
+2026-09-25 16:07:08,256 - INFO - # MODULE    : Patient Registration
+2026-09-25 16:07:08,256 - INFO - # STATUS    : STARTED
+2026-09-25 16:07:08,256 - INFO - ###############################################################################################
+2026-09-25 16:07:08,256 - INFO - ============================================
+2026-09-25 16:07:08,256 - INFO - REGISTRATION TO RX FLOW
+2026-09-25 16:07:08,256 - INFO - OPD Unit: NEUROLOGY(DR. PRATEEK BAPAT)
+2026-09-25 16:07:08,256 - INFO - Patient Name: AUTOAHT
+2026-09-25 16:07:08,256 - INFO - Updated Patient Name: AUTOaHTOne
+2026-09-25 16:07:08,256 - INFO - ============================================
+2026-09-25 16:07:08,256 - INFO - Refreshing page
+2026-09-25 16:07:12,321 - INFO - Page refreshed successfully
+2026-09-25 16:07:12,340 - INFO - Logged in consultant: SUDEEP RAI
+2026-09-25 16:07:12,340 - INFO - ============================================
+2026-09-25 16:07:12,340 - INFO - STARTING OPD FLOW
+2026-09-25 16:07:12,340 - INFO - Selecting OPD Unit: NEUROLOGY(DR. PRATEEK BAPAT)
+2026-09-25 16:07:12,368 - INFO - Clicked OPD module
+2026-09-25 16:07:12,411 - INFO - Opened OPD Doctor Desk
+2026-09-25 16:07:15,411 - INFO - Selecting OPD Doctor Desk Unit: 'NEUROLOGY(DR. PRATEEK BAPAT)'
+2026-09-25 16:07:15,411 - INFO - OPD Unit XPath: //select[@name='select-option']/option[translate(normalize-space(text()),'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='NEUROLOGY(DR. PRATEEK BAPAT)']
+2026-09-25 16:07:15,450 - INFO - Found OPD Unit option: 'NEUROLOGY(DR. PRATEEK BAPAT)'
+2026-09-25 16:07:15,455 - INFO - OPD Unit option value: '31812'
+2026-09-25 16:07:15,547 - INFO - Successfully selected OPD Unit: 'NEUROLOGY(DR. PRATEEK BAPAT)'
+2026-09-25 16:07:18,547 - INFO - OPD Unit selected successfully: NEUROLOGY(DR. PRATEEK BAPAT)
+2026-09-25 16:07:18,547 - INFO - Searching patient in OPD using name: AUTOaHTOne
+2026-09-25 16:07:24,672 - INFO - Waiting for patient to appear in OPD listing
+2026-09-25 16:07:24,707 - INFO - Patient found in OPD: Autoahtone
+2026-09-25 16:07:24,707 - INFO - Patient OPD verification passed
+2026-09-25 16:07:24,707 - INFO - ============================================
+2026-09-25 16:07:24,707 - INFO - STARTING RX FLOW
+2026-09-25 16:07:24,745 - INFO - RX screen opened successfully
+2026-09-25 16:07:27,746 - INFO - Chief Complaint: Fever
+2026-09-25 16:07:27,746 - INFO - Diagnosis Code: R50.9
+2026-09-25 16:07:27,746 - INFO - Instruction: After Meal
+2026-09-25 16:07:27,746 - INFO - Follow-up Days: 5
+2026-09-25 16:07:33,097 - INFO - Chief complaint added successfully
+2026-09-25 16:07:44,327 - INFO - Diagnosis added successfully
+2026-09-25 16:07:46,406 - INFO - Investigation tab opened
+2026-09-25 16:07:51,625 - INFO - Investigation selected: Complete Blood Count (CBC)
+2026-09-25 16:07:53,738 - INFO - Clinical indication entered
+2026-09-25 16:07:55,852 - INFO - Clinical history entered
+2026-09-25 16:07:58,885 - INFO - Investigation added successfully
+2026-09-25 16:08:04,185 - INFO - Drug selected: PARACETAMOL TAB 500MG (Qty:8109)
+2026-09-25 16:08:10,483 - INFO - Medicine added successfully
+2026-09-25 16:08:10,538 - INFO - RX Preview generated successfully
+2026-09-25 16:08:15,668 - INFO - Patient details extracted from RX Preview
+2026-09-25 16:08:15,668 - INFO - ============================================
+2026-09-25 16:08:15,668 - INFO - STARTING RX PREVIEW VALIDATION
+2026-09-25 16:08:15,668 - INFO - Drug name verified successfully
+2026-09-25 16:08:15,668 - INFO - Consultant verified successfully: Sudeep Rai
+2026-09-25 16:08:15,668 - INFO - RX Preview validation completed successfully
+2026-09-25 16:08:16,804 - INFO - RX saved successfully
+2026-09-25 16:08:16,804 - INFO - ============================================
+2026-09-25 16:08:16,804 - INFO - REGISTRATION TO RX FLOW COMPLETED
+2026-09-25 16:08:16,804 - INFO - Final OPD Unit: NEUROLOGY(DR. PRATEEK BAPAT)
+2026-09-25 16:08:16,804 - INFO - Final Patient Name: AUTOaHTOne
+2026-09-25 16:08:16,804 - INFO - ============================================
+2026-09-25 16:08:16,804 - INFO - 
+2026-09-25 16:08:16,805 - INFO - ###############################################################################################
+2026-09-25 16:08:16,805 - INFO - # TEST CASE : test_reg_to_rx_flow
+2026-09-25 16:08:16,805 - INFO - # STATUS    : PASSED
+2026-09-25 16:08:16,805 - INFO - ###############################################################################################
+2026-09-25 16:08:16,805 - INFO - 
+2026-09-25 16:08:16,809 - INFO - 
+2026-09-25 16:08:16,810 - INFO - ###############################################################################################
+2026-09-25 16:08:16,810 - INFO - # TEST CASE : test_search_and_create_patient
+2026-09-25 16:08:16,810 - INFO - # MODULE    : Patient Registration
+2026-09-25 16:08:16,810 - INFO - # STATUS    : STARTED
+2026-09-25 16:08:16,810 - INFO - ###############################################################################################
+2026-09-25 16:08:16,810 - INFO - Test Data | Patient Name: AUTOAPPVTOHZAJEGDEAA | Mobile Number: 8002822501
+2026-09-25 16:08:16,855 - INFO - Registration module opened
+2026-09-25 16:08:16,919 - INFO - Patient Registration page opened
+2026-09-25 16:08:19,920 - INFO - Searching non-registered patient: AUTOAPPVTOHZAJEGDEAA
+2026-09-25 16:08:30,319 - INFO - Confirmed patient creation from search popup
+2026-09-25 16:08:33,320 - INFO - Selecting random department
+2026-09-25 16:08:33,624 - INFO - Selected Department: NEUROLOGY
+2026-09-25 16:08:35,673 - INFO - Selected Unit: Dr. Prateek Bapat
+2026-09-25 16:08:35,674 - INFO - Generated OPD Unit Name: NEUROLOGY(DR. PRATEEK BAPAT)
+2026-09-25 16:08:37,674 - INFO - Entering patient registration details
+2026-09-25 16:08:37,993 - INFO - Selected random payment mode: Debit Card
+2026-09-25 16:08:39,573 - INFO - All patient details entered successfully
+2026-09-25 16:08:39,638 - INFO - Patient saved successfully
+2026-09-25 16:08:51,744 - INFO - Closed popup using ESC
+2026-09-25 16:08:51,744 - INFO - Starting PDF verification
+2026-09-25 16:08:51,825 - INFO - PDF opened successfully
+2026-09-25 16:08:51,826 - INFO - CRN generated successfully: 231012600003446
+2026-09-25 16:08:51,923 - INFO - PDF closed successfully
+2026-09-25 16:08:55,026 - INFO - Pressed ESC
+2026-09-25 16:08:59,367 - INFO - Closed remaining popup
+2026-09-25 16:09:02,368 - INFO - Navigating back to Registration Search
+2026-09-25 16:09:12,605 - ERROR - 
+2026-09-25 16:09:12,605 - ERROR - ###############################################################################################
+2026-09-25 16:09:12,605 - ERROR - # TEST CASE : test_search_and_create_patient
+2026-09-25 16:09:12,605 - ERROR - # STATUS    : FAILED
+2026-09-25 16:09:12,605 - ERROR - # REASON    : Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7c54d1035+5a95]
+	chromedriver!(No symbol) [0x7ff7c53f2c70]
+	chromedriver!(No symbol) [0x7ff7c5214a7d]
+	chromedriver!(No symbol) [0x7ff7c526ff91]
+	chromedriver!(No symbol) [0x7ff7c527025c]
+	chromedriver!(No symbol) [0x7ff7c52c2f67]
+	chromedriver!(No symbol) [0x7ff7c52bfbea]
+	chromedriver!(No symbol) [0x7ff7c5261d02]
+	chromedriver!(No symbol) [0x7ff7c5262b13]
+	chromedriver!GetHandleVerifier [0x7ff7c58f1411+425e71]
+	chromedriver!GetHandleVerifier [0x7ff7c591ca47+4514a7]
+	chromedriver!GetHandleVerifier [0x7ff7c591094e+4453ae]
+	chromedriver!GetHandleVerifier [0x7ff7c55cbf6e+1009ce]
+	chromedriver!(No symbol) [0x7ff7c5400a05]
+	chromedriver!(No symbol) [0x7ff7c53fbcf4]
+	chromedriver!(No symbol) [0x7ff7c53fbe84]
+	chromedriver!(No symbol) [0x7ff7c53e66ac]
+	KERNEL32!BaseThreadInitThunk [0x7ff8c9dacd87+17]
+	ntdll!RtlUserThreadStart [0x7ff8caa2caec+2c]
+
+2026-09-25 16:09:12,605 - ERROR - ###############################################################################################
+2026-09-25 16:09:12,605 - ERROR - 
+2026-09-25 16:09:16,084 - INFO - Generated CRN found. Using newly registered patient CRN: 231012600003446
+2026-09-25 16:09:16,084 - INFO - 
+2026-09-25 16:09:16,084 - INFO - ###############################################################################################
+2026-09-25 16:09:16,084 - INFO - # TEST CASE : test_cancel_patient
+2026-09-25 16:09:16,084 - INFO - # MODULE    : Patient Registration
+2026-09-25 16:09:16,084 - INFO - # STATUS    : STARTED
+2026-09-25 16:09:16,084 - INFO - ###############################################################################################
+2026-09-25 16:09:16,084 - INFO - ==========================================
+2026-09-25 16:09:16,084 - INFO - Test Data | CRN: 231012600003446
+2026-09-25 16:09:16,084 - INFO - Department: NEUROLOGY
+2026-09-25 16:09:16,084 - INFO - OPD Unit: NEUROLOGY(DR. PRATEEK BAPAT)
+2026-09-25 16:09:16,084 - INFO - Using Fallback CRN: False
+2026-09-25 16:09:16,084 - INFO - ==========================================
+2026-09-25 16:09:16,084 - INFO - Opening Registration module
+2026-09-25 16:09:16,149 - INFO - Opening Patient Cancellation screen
+2026-09-25 16:09:21,201 - INFO - Searching patient using CRN: 231012600003446
+2026-09-25 16:09:27,333 - INFO - Proceeding with patient cancellation
+2026-09-25 16:09:27,979 - INFO - Entering cancellation reason
+2026-09-25 16:09:34,220 - INFO - Saving patient cancellation
+2026-09-25 16:09:34,252 - INFO - Patient cancelled successfully
+2026-09-25 16:09:37,355 - INFO - Closing cancellation popup
+2026-09-25 16:09:47,749 - INFO - No popup found to close
+2026-09-25 16:09:52,751 - INFO - Starting Validation 1 - Verifying cancelled department is removed
+2026-09-25 16:09:57,888 - INFO - Searching cancelled patient: 231012600003446
+2026-09-25 16:10:02,657 - INFO - Opening revisit screen
+2026-09-25 16:10:05,710 - INFO - Fetching available department list
+2026-09-25 16:10:05,776 - INFO - Departments available after cancellation: ['', '', '', '', '']
+2026-09-25 16:10:05,777 - INFO - Checking removed department: NEUROLOGY
+2026-09-25 16:10:05,777 - INFO - Cancelled department removed successfully
+2026-09-25 16:10:05,777 - INFO - 
+2026-09-25 16:10:05,777 - INFO - ###############################################################################################
+2026-09-25 16:10:05,777 - INFO - # TEST CASE : test_cancel_patient
+2026-09-25 16:10:05,777 - INFO - # STATUS    : PASSED
+2026-09-25 16:10:05,777 - INFO - ###############################################################################################
+2026-09-25 16:10:05,777 - INFO - 
+2026-09-25 16:10:10,849 - INFO - 
+2026-09-25 16:10:10,849 - INFO - ###############################################################################################
+2026-09-25 16:10:10,849 - INFO - # TEST CASE : test_loop_registration
+2026-09-25 16:10:10,849 - INFO - # MODULE    : Patient Registration
+2026-09-25 16:10:10,849 - INFO - # STATUS    : STARTED
+2026-09-25 16:10:10,849 - INFO - ###############################################################################################
+2026-09-25 16:10:10,849 - INFO - Generated Mobile Number: 8809033918
+2026-09-25 16:10:10,849 - INFO - Starting creation of 2 patients
+2026-09-25 16:10:10,849 - INFO - ========== Registration 1 Started ==========
+2026-09-25 16:10:11,916 - INFO - Patient Registration page opened
+2026-09-25 16:10:12,565 - INFO - New Registration form opened
+2026-09-25 16:10:14,824 - INFO - Selected Department: CASUALTY
+2026-09-25 16:10:17,256 - INFO - Selected Unit: Casualty Unit 1
+2026-09-25 16:10:17,256 - INFO - Generated Patient Name: AUTOWQs
+2026-09-25 16:10:17,476 - INFO - Selected random payment mode: POS
+2026-09-25 16:10:18,960 - INFO - Saving patient registration
+2026-09-25 16:10:18,994 - INFO - 
+           Patient Created Successfully
+           Name : AUTOWQs
+           Department : CASUALTY
+           Unit : Casualty Unit 1
+           OPD Unit : CASUALTY(CASUALTY UNIT 1)
+           
+2026-09-25 16:10:34,101 - INFO - Starting PDF verification for AUTOWQs
+2026-09-25 16:10:36,137 - INFO - PDF verification passed
+2026-09-25 16:10:39,305 - INFO - Starting Barcode verification for AUTOWQs
+2026-09-25 16:10:42,333 - INFO - Barcode verification passed
+2026-09-25 16:10:42,398 - INFO - ========== Registration 1 Completed Successfully ==========
+2026-09-25 16:10:42,399 - INFO - ========== Registration 2 Started ==========
+2026-09-25 16:10:43,989 - INFO - Patient Registration page opened
+2026-09-25 16:10:44,593 - INFO - New Registration form opened
+2026-09-25 16:10:47,014 - INFO - Selected Department: NEUROLOGY
+2026-09-25 16:10:47,101 - INFO - Selected Unit: Dr. Prateek Bapat
+2026-09-25 16:10:47,101 - INFO - Generated Patient Name: AUTOyfC
+2026-09-25 16:10:47,297 - INFO - Selected random payment mode: Debit Card
+2026-09-25 16:10:48,541 - INFO - Saving patient registration
+2026-09-25 16:10:48,568 - INFO - 
+           Patient Created Successfully
+           Name : AUTOyfC
+           Department : NEUROLOGY
+           Unit : Dr. Prateek Bapat
+           OPD Unit : NEUROLOGY(DR. PRATEEK BAPAT)
+           
+2026-09-25 16:11:03,675 - INFO - Starting PDF verification for AUTOyfC
+2026-09-25 16:11:05,706 - INFO - PDF verification passed
+2026-09-25 16:11:08,873 - INFO - Starting Barcode verification for AUTOyfC
+2026-09-25 16:11:11,919 - INFO - Barcode verification passed
+2026-09-25 16:11:11,991 - INFO - ========== Registration 2 Completed Successfully ==========
+2026-09-25 16:11:11,991 - INFO - ========== Starting Search Validation ==========
+2026-09-25 16:11:12,038 - INFO - Registration module opened
+2026-09-25 16:11:12,158 - INFO - Patient Registration page opened
+2026-09-25 16:11:17,158 - INFO - Searching patient: AUTOWQs
+2026-09-25 16:11:20,903 - INFO - Search Result: AUTOWQS
+2026-09-25 16:11:20,903 - INFO - Patient verified successfully: AUTOWQs
+2026-09-25 16:11:23,903 - INFO - Searching patient: AUTOyfC
+2026-09-25 16:11:27,610 - INFO - Search Result: AUTOYFC
+2026-09-25 16:11:27,611 - INFO - Patient verified successfully: AUTOyfC
+2026-09-25 16:11:30,611 - INFO - All created patients verified successfully
+2026-09-25 16:11:30,611 - INFO - 
+2026-09-25 16:11:30,612 - INFO - ###############################################################################################
+2026-09-25 16:11:30,612 - INFO - # TEST CASE : test_loop_registration
+2026-09-25 16:11:30,612 - INFO - # STATUS    : PASSED
+2026-09-25 16:11:30,612 - INFO - ###############################################################################################
+2026-09-25 16:11:30,612 - INFO - 
+2026-09-25 16:11:30,619 - INFO - 
+2026-09-25 16:11:30,619 - INFO - ###############################################################################################
+2026-09-25 16:11:30,644 - INFO - # TEST CASE : test_abha_search_otp_and_register
+2026-09-25 16:11:30,644 - INFO - # MODULE    : Patient Registration
+2026-09-25 16:11:30,644 - INFO - # STATUS    : STARTED
+2026-09-25 16:11:30,644 - INFO - ###############################################################################################
+2026-09-25 16:11:30,644 - INFO - Refreshing application
+2026-09-25 16:11:35,721 - INFO - Opening Registration Module
+2026-09-25 16:11:35,754 - INFO - Opening Patient Registration
+2026-09-25 16:11:35,802 - INFO - Opening New Registration form
+2026-09-25 16:11:39,450 - INFO - Selecting ABHA verification with other modes
+2026-09-25 16:11:42,515 - INFO - Entering mobile number for ABHA verification
+2026-09-25 16:11:42,516 - INFO - Using ABHA verification mobile: 8958519719
+2026-09-25 16:11:43,685 - INFO - Sending OTP
+2026-09-25 16:11:44,412 - INFO - Entering OTP
+2026-09-25 16:11:59,325 - INFO - Verifying OTP
+2026-09-25 16:12:04,429 - INFO - Fetching patient details from ABHA
+2026-09-25 16:12:04,453 - INFO - ABHA Patient Name: Rahul Gunsola
+2026-09-25 16:12:04,453 - INFO - Adding ABHA patient
+2026-09-25 16:12:09,530 - INFO - Selecting random visiting department
+2026-09-25 16:12:09,785 - INFO - Getting selected unit
+2026-09-25 16:12:09,946 - INFO - Selected random payment mode: Debit Card
+2026-09-25 16:12:09,946 - INFO - Entering patient family details
+2026-09-25 16:12:10,673 - INFO - Saving patient registration
+2026-09-25 16:12:13,720 - INFO - Checking whether existing patient popup is displayed
+2026-09-25 16:12:14,423 - INFO - Existing patient radio button selected
+2026-09-25 16:12:18,463 - INFO - New revisit department selected
+2026-09-25 16:12:24,622 - INFO - Revisit department selected: NEUROLOGY(DR. PRATEEK BAPAT)
+2026-09-25 16:12:27,658 - INFO - Revisit saved successfully
+2026-09-25 16:12:32,773 - INFO - Starting PDF verification
+2026-09-25 16:12:34,811 - INFO - CRN generated successfully: 231012600000366
+2026-09-25 16:12:37,987 - INFO - Starting barcode verification
+2026-09-25 16:12:41,009 - INFO - Barcode generated successfully
+2026-09-25 16:12:41,065 - INFO - Opening Patient Registration for search
+2026-09-25 16:12:51,264 - ERROR - 
+2026-09-25 16:12:51,264 - ERROR - ###############################################################################################
+2026-09-25 16:12:51,264 - ERROR - # TEST CASE : test_abha_search_otp_and_register
+2026-09-25 16:12:51,264 - ERROR - # STATUS    : FAILED
+2026-09-25 16:12:51,264 - ERROR - # REASON    : Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7c54d1035+5a95]
+	chromedriver!(No symbol) [0x7ff7c53f2c70]
+	chromedriver!(No symbol) [0x7ff7c5214a7d]
+	chromedriver!(No symbol) [0x7ff7c526ff91]
+	chromedriver!(No symbol) [0x7ff7c527025c]
+	chromedriver!(No symbol) [0x7ff7c52c2f67]
+	chromedriver!(No symbol) [0x7ff7c52bfbea]
+	chromedriver!(No symbol) [0x7ff7c5261d02]
+	chromedriver!(No symbol) [0x7ff7c5262b13]
+	chromedriver!GetHandleVerifier [0x7ff7c58f1411+425e71]
+	chromedriver!GetHandleVerifier [0x7ff7c591ca47+4514a7]
+	chromedriver!GetHandleVerifier [0x7ff7c591094e+4453ae]
+	chromedriver!GetHandleVerifier [0x7ff7c55cbf6e+1009ce]
+	chromedriver!(No symbol) [0x7ff7c5400a05]
+	chromedriver!(No symbol) [0x7ff7c53fbcf4]
+	chromedriver!(No symbol) [0x7ff7c53fbe84]
+	chromedriver!(No symbol) [0x7ff7c53e66ac]
+	KERNEL32!BaseThreadInitThunk [0x7ff8c9dacd87+17]
+	ntdll!RtlUserThreadStart [0x7ff8caa2caec+2c]
+
+2026-09-25 16:12:51,264 - ERROR - ###############################################################################################
+2026-09-25 16:12:51,264 - ERROR - 
